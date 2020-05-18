@@ -5,8 +5,8 @@ import re
 import chart_studio.dashboard_objs as dashboard
 
 
-username = 'crispyyv'
-password = '19680401'
+username = 'asd'
+password = 'asd'
 database = 'localhost/xe'
 
 firstQuery = """
@@ -35,7 +35,8 @@ DISTINCT lectures_num,
 price
 FROM
 udemy_courses where
-subject = 'busines'
+subject = 'Business Finance'
+order by lectures_num
 """
 
 
